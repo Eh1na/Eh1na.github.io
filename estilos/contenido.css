@@ -1,0 +1,167 @@
+.contenedor__contenido{
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido__container{
+    margin-top: 56px;
+    width: 100%;
+    max-width: 1425px;
+    display: flex;
+    flex-wrap: wrap;    
+    background-color: rgb(32, 32, 33);
+    color: aliceblue;
+}
+
+.contenido__principal{
+    width: 100%;
+    height: calc(100vh - 60px);
+    
+    background-color: rgb(57, 85, 85);
+    
+}
+
+.ajuste{
+    height: calc(100vh - 60px);
+    object-fit: cover;
+}
+
+.contenedor__input{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.label{
+    width: 80%;
+    text-align: center;
+}
+
+.input{
+    width: 80%;
+    padding: 0.2rem;
+    margin-top: 1rem;
+}
+
+.textarea{
+    width: 80%;
+    height: 200px;
+}
+
+.contenedor__boton{
+    margin-bottom: 1rem;
+}
+
+.boton{
+    width: 60%;
+    border: none;
+    border-radius: 15px;
+    padding: 0.3rem 0;
+}
+
+.contenido__cards{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta{
+    margin: 1rem 0;
+    width: 80%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor__imagen{
+    width: 90%;
+}
+
+.imagen__tarjeta{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.contenedor__parrafo{
+    margin-top: 0.6rem;
+    text-align: justify;
+}
+
+
+.contenedor__link a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: rgb(46, 46, 88);
+}
+
+.footer__rrss{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.contenedor__rrss{
+    
+    margin: 0 0.2rem;
+}
+
+.icono__rrss{
+    height: 2rem;
+    color: #ffffff;
+}
+
+@media (min-width: 1439px) {
+    .contenido__cards{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    .tarjeta{
+        margin: 1rem;
+        width: 70%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .contenedor__imagen{
+        width: 90%;
+    }
+    
+    .imagen__tarjeta{
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+    .contenedor__parrafo{
+        margin-top: 0.6rem;
+        text-align: justify;
+    }
+    
+    
+    .contenedor__link a{
+        text-decoration: none;
+        color: blanchedalmond;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        background-color: rgb(46, 46, 88);
+    }
+  }
