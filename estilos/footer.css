@@ -24,11 +24,18 @@
 .footer__item{
     font-weight: bold;
     color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
+.numero{
+    display: none;
+}
+
 .footer__item i{
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .footer__rrss{
@@ -46,4 +53,13 @@
 .icono__rrss{
     height: 2rem;
     color: #ffffff;
+}
+
+@media (min-width:768px) {
+    .numero{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
 }
