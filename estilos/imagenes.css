@@ -1,0 +1,10 @@
+.imagen__galeria{
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.col-lg-6{
+    padding: 20px;
+    margin: 0 !important;
+}
